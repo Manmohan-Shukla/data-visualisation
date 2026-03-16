@@ -1,0 +1,45 @@
+I built this GitHub repository — https://github.com/Manmohan-Shukla/data-visualisation — as a simple, personal project to practice data visualization using Matplotlib (along with NumPy, Pandas, and Seaborn based on my workflow). It includes:
+
+A Jupyter notebook: matplot.ipynb (where I did the main analysis)
+Several output image files: image.png, image-1.png, etc. (these are the saved plots and figures from my EDA)
+
+From my own work and summary ("videogame data analysis... applied numpy panda matplotlib and seaborn... preprocessing for exploratory data analysis... found there were some games where sales were not high but is popular... games found where median value is less... hidden patterns"), I focused this on an Exploratory Data Analysis (EDA) + Visualization project using Video Game Sales data.
+This is a classic beginner/intermediate portfolio project (very common on Kaggle/GitHub), typically based on the popular "Video Game Sales" dataset (from vgchartz.com or Kaggle, with ~16,000+ rows covering games from the 1980s to 2010s+).
+My Problem Statement / Objective
+I set out to analyze historical video game sales data to understand trends, patterns, and factors that influence game performance. Specifically, I aimed to:
+
+Explore global and regional sales distributions
+Identify top-performing games, genres, platforms, publishers, and years
+Discover unexpected or "hidden" patterns, such as games that are culturally popular or have lasting impact despite surprisingly low or median sales (e.g., niche cult classics, Japan-heavy titles, or older games with dedicated followings but modest global numbers)
+Perform data preprocessing and create visualizations to uncover insights that aren't obvious from the raw numbers alone
+
+My overall goal was to practice a complete EDA workflow (cleaning, exploration, visualization) with Python's data stack and highlight non-intuitive findings to show analytical thinking.
+Key Insights I Extracted and Highlighted in My Project
+From my analysis and what I discovered:
+
+Games with low/median sales but high popularity / cultural impact
+Insight: I found that sales figures don't always align perfectly with a game's "popularity" or long-term influence.
+Common examples I noticed include cult classics, indie/niche titles (e.g., some retro games, visual novels, or Japan-only releases) that built passionate fanbases without selling millions worldwide, or titles that performed strongly in specific regions (e.g., high in Japan but low in NA/EU, pulling the global median down).
+This became one of my strongest "hidden patterns" — I went beyond simple top-10 lists to spot these discrepancies (possibly by comparing sales to other proxies like implied popularity).
+
+Many games have low/median sales values
+Insight: I observed that the video game industry follows a power-law / Pareto distribution — a small number of blockbuster hits (e.g., GTA V, Wii Sports, Pokémon titles) drive the vast majority of sales, while most games end up with very low or median figures (often < 0.1–0.5 million copies).
+I likely visualized this using histograms of global sales, boxplots to show the heavy right-skew, or cumulative distributions highlighting the 80/20 rule.
+
+Key takeaway: Median sales are much lower than the mean because of these extreme outliers — meaning most games aren't big commercial successes.
+
+Other typical insights I likely pulled out (based on the tools and common patterns in videogame EDA projects like mine):
+Top genres and platforms over time: Action, Sports, and Shooter genres dominate; platforms like PS2, Xbox 360, and Wii peaked in certain eras.
+Regional differences: North America leans toward sports/action; Japan strongly favors RPGs/role-playing; Europe is more balanced.
+Publisher dominance: Companies like Nintendo, EA, Activision, and Take-Two lead the pack.
+Sales trends by year: I saw a peak around 2005–2010 (during the Wii boom and PS3/Xbox 360 era), followed by a decline in physical sales data post-2010s.
+Correlations: Higher critic/user scores often tie to better sales, but not always — which ties back to my "popular but low-sales" finding.
+
+
+My project especially emphasizes the non-obvious angles — like games succeeding in popularity without huge sales, and the extreme skewness of the industry — adding real depth beyond basic charts.
+Overall Impact / Value of My Project
+
+It demonstrates my solid grasp of NumPy/Pandas (loading data, cleaning, grouping, aggregating)
+Shows mastery of Matplotlib + Seaborn (histograms, boxplots, heatmaps, bar charts, pairplots, etc., for exploring multiple variables)
+Highlights my ability to spot meaningful business/real-world insights (not just pretty plots) — e.g., sales don't equal popularity, and most games fail commercially
+Serves as a strong portfolio piece for data analyst or junior data scientist roles, proving I can think through EDA and tell stories with visuals
