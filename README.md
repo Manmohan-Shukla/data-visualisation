@@ -3,6 +3,17 @@
 ![Video Game Sales Visualization](image.png)  
 *(Example plot: Global Sales Distribution or Top Genres – replace with your favorite screenshot if needed)*
 
+## Interactive Notebook View
+Click below to see the full rendered Jupyter notebook (plots, code, and outputs) without downloading anything:
+
+[<image-card alt="Open in nbviewer" src="https://img.shields.io/badge/Open%20in-nbviewer-orange?style=flat&logo=Jupyter" ></image-card>](https://nbviewer.org/github/Manmohan-Shukla/data-visualisation/blob/main/matplot.ipynb)
+
+This version shows:
+- Genre & platform distributions
+- Regional sales breakdowns
+- Sales skewness & hidden patterns (low sales but popular games)
+- Heatmaps, pairplots, boxplots, and more
+
 ## Problem Statement
 The video game industry is massive and highly competitive, with thousands of titles released each year. However, sales data often follows extreme distributions (a few blockbusters dominate, while most games sell modestly).  
 
