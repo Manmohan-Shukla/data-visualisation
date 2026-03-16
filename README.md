@@ -6,7 +6,7 @@
 ## Interactive Notebook View
 Click below to see the full rendered Jupyter notebook (plots, code, and outputs) without downloading anything:
 
-[<image-card alt="View Notebook in nbviewer" src="https://img.shields.io/badge/View%20in-nbviewer-blue?style=for-the-badge&logo=jupyter" ></image-card>](https://nbviewer.org/github/Manmohan-Shukla/data-visualisation/blob/main/matplot.ipynb)
+[![View Notebook in nbviewer](https://img.shields.io/badge/View%20in-nbviewer-blue?style=for-the-badge&logo=jupyter)](https://nbviewer.org/github/Manmohan-Shukla/data-visualisation/blob/main/matplot.ipynb)
 
 This version shows:
 - Genre & platform distributions
