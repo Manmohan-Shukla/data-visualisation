@@ -1,18 +1,23 @@
 # Video Game Sales - Exploratory Data Analysis & Visualization
 
-![Video Game Sales Visualization](image.png)  
-*(Example plot: Global Sales Distribution or Top Genres – replace with your favorite screenshot if needed)*
+
 
 ## Interactive Notebook View
-Click below to see the full rendered Jupyter notebook (plots, code, and outputs) without downloading anything:
+Click below to explore the notebook interactively:
 
-[![View Notebook in nbviewer](https://img.shields.io/badge/View%20in-nbviewer-blue?style=for-the-badge&logo=jupyter)](https://nbviewer.org/github/Manmohan-Shukla/data-visualisation/blob/main/matplot.ipynb)
+- **View rendered version** (static, fast, no wait):  
+  [![View in nbviewer](https://img.shields.io/badge/View%20in-nbviewer-blue?style=for-the-badge&logo=jupyter)](https://nbviewer.org/github/Manmohan-Shukla/data-visualisation/blob/main/matplot.ipynb)
 
-This version shows:
+- **Launch live interactive session** (run/edit code online):  
+  [![Launch in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Manmohan-Shukla/data-visualisation/main?filepath=matplot.ipynb)
+
+This opens your EDA notebook with:
 - Genre & platform distributions
 - Regional sales breakdowns
 - Sales skewness & hidden patterns (low sales but popular games)
 - Heatmaps, pairplots, boxplots, and more
+
+(Note: Binder first launch may take 1–2 min to build the environment.)
 
 ## Problem Statement
 The video game industry is massive and highly competitive, with thousands of titles released each year. However, sales data often follows extreme distributions (a few blockbusters dominate, while most games sell modestly).  
